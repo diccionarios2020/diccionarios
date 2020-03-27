@@ -1,0 +1,22 @@
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\bin\Debug\Diccionarios.exe
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\bin\Debug\Diccionarios.pdb
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\bin\Debug\Diccionarios.xml
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Debug\Diccionarios.frmPrincipal.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Debug\Diccionarios.Resources.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Debug\Diccionarios.vbproj.GenerateResource.Cache
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Debug\Diccionarios.exe
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Debug\Diccionarios.xml
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Debug\Diccionarios.pdb
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Debug\Diccionarios.imagen.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Debug\Diccionarios.exe
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Debug\Diccionarios.xml
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Debug\Diccionarios.pdb
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Debug\Diccionarios.imagen.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Debug\Diccionarios.frmPrincipal.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Debug\Diccionarios.Resources.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Debug\Diccionarios.vbproj.GenerateResource.Cache
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Debug\Diccionarios.exe
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Debug\Diccionarios.pdb
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Debug\Diccionarios.xml

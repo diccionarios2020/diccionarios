@@ -1,0 +1,109 @@
+﻿
+Thanks for your help! So the trick is to set the "Build Action" of the
+cursor file to "Embedded Rource" such that I can load the icons in the load
+event of the form as follows:
+
+curDefault = New Cursor(Me.GetType(), "cDefault.ico")
+
+
+==== EHM... LA VERDAD QUE CREO QUE YA NO SIRVE PARA UN JORACA ====
+
+    Private Sub cargarImagenEnContenedor(ByVal urlImagen As String, Optional ByVal zoom As Integer = 100)
+        Dim imagenActual As String = urlImagen
+        Dim relacion As Single
+        Dim anchoNecesario As Integer = Imagen1.Width - 24
+        With Imagen1.imagenSeleccionada
+            relacion = (100 / .Width * (anchoNecesario * zoom / 100)) / 100
+            .SizeMode = PictureBoxSizeMode.StretchImage
+            .Width = CInt(.Width * relacion)
+            .Height = CInt(.Height * relacion)
+            .ImageLocation = imagenActual
+        End With
+    End Sub
+    
+    
+    ==== IMPRESIÓN DIRECTA ====
+    
+    
+    Private Sub PrintGraphic(ByVal sender As Object, ByVal ev As PrintPageEventArgs)
+        ev.Graphics.DrawImage(Image.FromFile("C:\prueba.jpg"), ev.Graphics.VisibleClipBounds)
+        ev.HasMorePages = False
+    End Sub
+    
+    
+    
+    Private Sub tsbImprimir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tsbImprimir.Click
+        Try
+            AddHandler imprimirImagen.PrintPage, AddressOf Me.PrintGraphic
+            imprimirImagen.PrinterSettings.PrinterName = "Adobe PDF"
+            imprimirImagen.Print() 'pring graphics
+        Catch ex As Exception
+            MessageBox.Show("Lo siento, hay un problema de impresión: " + ex.ToString())
+        End Try
+    End Sub
+    
+    
+    
+    ==== DATAGRIDVIEW CON LOS DICCIONARIOS ====
+    
+    Private Sub DataGridView1_SelectionChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DataGridView1.SelectionChanged
+        Dim indice As Integer = Me.DataGridView1.SelectedCells.Item(0).RowIndex
+        cargarDiccionario(Me.DataGridView1.Item("ID_Libro", indice).Value)
+
+    End Sub
+    
+    
+    
+    
+    ============================
+    
+    
+            Select Case actual
+            Case (1.0 >= actual) And (actual < 6.25)
+                vZoomCorrecto = 6.25
+
+            Case 6.25 >= actual < 12.5
+                vZoomCorrecto = 12.5
+
+            Case (12.5 >= actual)
+                vZoomCorrecto = 25.0
+
+            Case (25.0 >= actual) And (actual < 33.33)
+                vZoomCorrecto = 33.33
+
+            Case 33.3 >= actual < 50.0
+                vZoomCorrecto = 50.0
+
+            Case 50.0 >= actual < 75.0
+                vZoomCorrecto = 75.0
+
+            Case 75.0 >= actual < 100.0
+                vZoomCorrecto = 100.0
+
+            Case 100.0 >= actual < 125.0
+                vZoomCorrecto = 125.0
+
+            Case 125.0 >= actual < 150.0
+                vZoomCorrecto = 150.0
+
+            Case 150.0 >= actual < 200.0
+                vZoomCorrecto = 200.0
+
+            Case 200.0 >= actual < 300.0
+                vZoomCorrecto = 300.0
+
+            Case 300.0 >= actual < 400.0
+                vZoomCorrecto = 400.0
+
+            Case 400.0 >= actual < 600.0
+                vZoomCorrecto = 600.0
+
+            Case 600.0 >= actual < 800.0
+                vZoomCorrecto = 800.0
+
+            Case 800.0 >= actual < 1200.0
+                vZoomCorrecto = 1200.0
+                
+                
+                
+                ==================

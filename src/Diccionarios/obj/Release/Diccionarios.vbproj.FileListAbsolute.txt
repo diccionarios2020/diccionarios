@@ -1,0 +1,22 @@
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\bin\Release\Diccionarios.exe
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\bin\Release\Diccionarios.pdb
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\bin\Release\Diccionarios.xml
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Release\ResolveAssemblyReference.cache
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Release\Diccionarios.imagen.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Release\Diccionarios.frmPrincipal.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Release\Diccionarios.Resources.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Release\Diccionarios.vbproj.GenerateResource.Cache
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Release\Diccionarios.exe
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Release\Diccionarios.xml
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios\Diccionarios\obj\Release\Diccionarios.pdb
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Release\Diccionarios.exe
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Release\Diccionarios.pdb
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Release\Diccionarios.xml
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Release\ResolveAssemblyReference.cache
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Release\Diccionarios.imagen.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Release\Diccionarios.frmPrincipal.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Release\Diccionarios.Resources.resources
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Release\Diccionarios.vbproj.GenerateResource.Cache
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Release\Diccionarios.exe
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Release\Diccionarios.xml
+D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\Release\Diccionarios.pdb
