@@ -1,0 +1,53 @@
+﻿ If e.KeyChar = ChrW(Keys.Enter) Then
+            e.Handled = True
+            'SendKeys.Send("{TAB}")
+            If (tbZoom.Text > 1) And (tbZoom.Text < 400) Then
+                vZoomActual = tbZoom.Text
+                cargarImagenEnContenedor(vImagenActual, vZoomActual)
+            End If
+        End If
+        
+        
+        
+          Private Sub btnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
+        TextBox1.Text = ChrW(CInt("&H03c9"))
+    End Sub
+
+
+    Private Function castGriego(ByVal unaLetra As Char) As Char
+        Dim caracter As Char
+        Select Case unaLetra
+            Case "a", "A"
+                caracter = ChrW("&H03C9")
+            Case "b"
+                caracter = ChrW("&h03ca")
+
+        End Select
+        Return caracter
+    End Function
+
+
+    Private Sub TextBox1_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
+        If e.KeyChar <> "" Then
+            e.Handled = True
+            TextBox1.Text = TextBox1.Text & castGriego(e.KeyChar)
+        End If
+
+
+
+
+    End Sub
+
+    Private Sub dgvIndice_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
+        If InStr(1, "0123456789,." & Chr(8), e.KeyChar) = 0 Then
+            If e.KeyChar = Chr(13) Then Label1.Text = Nothing
+            Label1.Text = Label1.Text & e.KeyChar
+        End If
+    End Sub
+
+    Private Sub Label1_MouseClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Label1.MouseClick
+        TextBox1.Focus()
+    End Sub
+
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+        TextBox1.Focus()
