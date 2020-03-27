@@ -1,6 +1,13 @@
-﻿Imports System.Data
+﻿Option Explicit On
+Option Strict Off
+
+Imports System.Data
 Imports System.Data.OleDb
 
+''' <summary>
+''' Dictionary loader
+''' </summary>
+''' <remarks></remarks>
 Public Class cargadorDeDiccionarios
 
     Private vConexion As String
@@ -20,7 +27,11 @@ Public Class cargadorDeDiccionarios
 #End Region
 
 
+    ''' <summary>
+    ''' Load dictionaries
+    ''' </summary>
     Friend Sub cargarDiccionarios(ByVal idioma As String, ByRef cbDic As ComboBox, ByRef diccionarios As Collection)
+
         Dim cn As New OleDbConnection(Me.conexion)
         Dim MiDataSet As New DataSet
         Dim MiAdaptador As New OleDb.OleDbDataAdapter
@@ -87,8 +98,5 @@ Public Class cargadorDeDiccionarios
         End Try
 
     End Sub ' Carga un diccionario por su ID_libro
-
-
-
 
 End Class

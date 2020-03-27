@@ -20,3 +20,16 @@ D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\obj\D
 D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Debug\Diccionarios.exe
 D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Debug\Diccionarios.pdb
 D:\Proyecto Libros\Visual Studio 2008\Diccionarios - Rilíz 0\Diccionarios\bin\Debug\Diccionarios.xml
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\obj\Debug\Diccionarios.exe
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\obj\Debug\Diccionarios.xml
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\obj\Debug\Diccionarios.pdb
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\bin\Debug\diccionarios.chm
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\bin\Debug\diccionarios.mdb
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\bin\Debug\Diccionarios.exe
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\bin\Debug\Diccionarios.pdb
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\bin\Debug\Diccionarios.xml
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\obj\Debug\ResolveAssemblyReference.cache
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\obj\Debug\Diccionarios.imagen.resources
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\obj\Debug\Diccionarios.frmPrincipal.resources
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\obj\Debug\Diccionarios.Resources.resources
+D:\roger_big\diccionarios_dev\diccionarios\src\Diccionarios\obj\Debug\Diccionarios.vbproj.GenerateResource.Cache

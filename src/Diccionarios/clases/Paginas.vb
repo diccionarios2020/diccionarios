@@ -1,9 +1,10 @@
-﻿Public Class Paginas
+﻿Option Explicit On
+Option Strict On
+
+Public Class Paginas
     Private vDirRepositorio As String
     Private vNombreDirDiccionario As String
     Private vNombreArchivoImagen As String
-
-
 
 #Region "Setters y Getters"
 

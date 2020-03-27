@@ -1,36 +1,41 @@
-﻿Public Class Configuracion
+﻿Option Explicit On
+Option Strict On
+
+''' <summary>
+''' Configuration class
+''' </summary>
+Public Class Configuracion
 
     Private vMdb As String
     Private vDirRepositorio As String
     Private vDirInstalacion As String
     Private vConexion As String
 
-
 #Region "Setters y Getters"
 
-    Public Property dirMdb()
+    Public Property dirMdb() As String
         Get
             Return vMdb
         End Get
-        Set(ByVal value)
+        Set(ByVal value As String)
             vMdb = value
         End Set
     End Property
 
-    Public Property dirRepositorio()
+    Public Property dirRepositorio() As String
         Get
             Return vDirRepositorio
         End Get
-        Set(ByVal value)
+        Set(ByVal value As String)
             vDirRepositorio = value
         End Set
     End Property
 
-    Public Property dirInstalacion()
+    Public Property dirInstalacion() As String
         Get
             Return vDirInstalacion
         End Get
-        Set(ByVal value)
+        Set(ByVal value As String)
             vDirInstalacion = value
         End Set
     End Property

@@ -1,6 +1,6 @@
 ﻿
 Thanks for your help! So the trick is to set the "Build Action" of the
-cursor file to "Embedded Rource" such that I can load the icons in the load
+cursor file to "Embedded Resource" such that I can load the icons in the load
 event of the form as follows:
 
 curDefault = New Cursor(Me.GetType(), "cDefault.ico")

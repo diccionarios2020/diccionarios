@@ -1,4 +1,7 @@
-﻿Public Class Diccionario
+﻿Option Explicit On
+Option Strict On
+
+Public Class Diccionario
 
     Private vID_Libro As Integer
     Private vTitulo As String

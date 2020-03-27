@@ -1,10 +1,13 @@
-﻿'Imports Microsoft.VisualBasic.Devices
+﻿Option Explicit On
 
 Imports System.IO
 Imports System.Data
 Imports System.Data.OleDb
 Imports System.Drawing.Printing
 
+''' <summary>
+''' Main form, entry point
+''' </summary>
 Public Class frmPrincipal
 
 #Region "DECLARACION DE VARIABLES"
@@ -36,21 +39,27 @@ Public Class frmPrincipal
 
 #End Region
 
-
+    ''' <summary>
+    ''' Set up the Configuracion object
+    ''' </summary>
+    ''' <remarks></remarks>
     Private Sub cargarConfiguracion()
+
         ' Configura el objeto 'config' con los datos del archivo diccionarios.ini
+        '-- Add the location of the dictionaries to the config object.
         With config
             If Directory.Exists(My.Application.Info.DirectoryPath & "\Diccionarios\") Then
                 .dirRepositorio = My.Application.Info.DirectoryPath & "\Diccionarios\"
             ElseIf Directory.Exists("D:\Proyecto Libros\Diccionarios\") Then
                 .dirRepositorio = "D:\Proyecto Libros\Diccionarios\"
-
             Else
                 .dirRepositorio = "D:\Proyecto Libros\Release\Diccionarios\"
             End If
+
             .dirMdb = "diccionarios.mdb"
             .dirInstalacion = My.Application.Info.DirectoryPath & "\"
             .conexion = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source =" & .dirInstalacion & .dirMdb
+
         End With
     End Sub
 
@@ -103,19 +112,27 @@ Public Class frmPrincipal
 
     Private Sub cargarDiccionario()
         Dim bp As New Buscador
+
+        '-- Load the dictionary index and search for the word written in it?
         'Se carga el índice del diccionario y se busca la palabra que haya estado escrita en el 
+
         cargadorDeDics.cargarHojasDeUnDiccionario(cbDiccionario.SelectedValue, dgvIndice)
         lblDatosBibliograficos.Text = diccionarios.Item(cbDiccionario.SelectedValue).referencia
         bp.buscarPalabra(tbBuscar.Text, dgvIndice)
     End Sub
 
+    ''' <summary>
+    ''' Load the page
+    ''' </summary>
     Private Sub cargarPagina()
+
         Dim nuevaPagina As New Paginas
 
         panelImagen.AutoScrollPosition = New Drawing.Point(0, 0)
 
         Dim indice As Integer
         ' Trata de cargar la imagen de la página
+        ' Try to load the page image
         Try
             indice = Me.dgvIndice.SelectedCells.Item(0).RowIndex
 
@@ -128,13 +145,14 @@ Public Class frmPrincipal
 
         Catch ex As Exception
             indice = 0
-            'MsgBox("Error: " & Err.Number.ToString & vbCrLf & ex.Message)
+            MsgBox("Error: " & Err.Number.ToString & vbCrLf & nuevaPagina.urlImagen & " " & ex.Message)
             pb1.Image = New Drawing.Bitmap(My.Application.Info.DirectoryPath & "\deest.bmp")
         End Try
 
         lblIdLibro.Text = Me.cbDiccionario.SelectedValue
 
         ' Mueve la imagen al vértice superior izquiero
+        ' Move the image to the top left corner
         panelImagen.AutoScrollPosition = New Drawing.Point(0, 0)
 
     End Sub

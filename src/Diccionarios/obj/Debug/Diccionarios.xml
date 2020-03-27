@@ -6,7 +6,37 @@ Diccionarios
 </name>
 </assembly>
 <members>
-<member name="P:Diccionarios.My.Resources.Resources.ResourceManager">
+<member name="M:Diccionarios.cargadorDeDiccionarios.cargarDiccionarios(System.String,System.Windows.Forms.ComboBox@,Microsoft.VisualBasic.Collection@)">
+	<summary>
+ Load dictionaries
+ </summary>
+</member><member name="T:Diccionarios.cargadorDeDiccionarios">
+	<summary>
+ Dictionary loader
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Diccionarios.Buscador.buscarPalabra(System.String,System.Windows.Forms.DataGridView@)">
+	<summary>
+	</summary>
+	<param name="unaPalabra">One Word</param>
+</member><member name="T:Diccionarios.Buscador">
+	<summary>
+ Search class
+ </summary>
+</member><member name="M:Diccionarios.frmPrincipal.cargarConfiguracion">
+	<summary>
+ Set up the Configuracion object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Diccionarios.frmPrincipal">
+	<summary>
+ Main form, entry point
+ </summary>
+</member><member name="T:Diccionarios.Configuracion">
+	<summary>
+ Configuration class
+ </summary>
+</member><member name="P:Diccionarios.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
